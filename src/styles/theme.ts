@@ -7,7 +7,7 @@ const montserrat = Montserrat({
 
 export const theme: DefaultTheme = {
   grid: {
-    container: '110rem',
+    container: '100rem',
     gutter: '3.2rem'
   },
   border: {
@@ -39,6 +39,8 @@ export const theme: DefaultTheme = {
     primary: '#0F52BA',
     white: '#FFFFFF',
     gray: {
+      100: '#eeeeee',
+      200: '#bfbfbf',
       500: '#373737',
       600: '#2C2C2C'
     },
@@ -53,7 +55,8 @@ export const theme: DefaultTheme = {
     large: '4.0rem',
     xlarge: '4.8rem',
     xxlarge: '5.6rem',
-    huge: '6.4rem'
+    huge: '6.4rem',
+    xhuge: '8rem'
   },
   layers: {
     base: 10,

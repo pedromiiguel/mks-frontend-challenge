@@ -35,6 +35,7 @@ export interface Spacings {
   xlarge: string;
   xxlarge: string;
   huge?: string;
+  xhuge?: string;
 }
 
 export interface Grid {
