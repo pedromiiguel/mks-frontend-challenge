@@ -1,38 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" style="color:white; font-size: 2.6rem; line-height: 3.9rem;font-weight: 700;">
+    Desafio MLK Sistemas
+</h1>
 
-## Getting Started
+<p align="center">
+ <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar-o-projeto">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-First, run the development server:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/pedromiiguel/mks-frontend-challenge">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/pedromiiguel/mks-frontend-challenge">
+
+  <a href="https://github.com/pedromiiguel/mks-frontend-challenge/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pedromiiguel/mks-frontend-challenge">
+  </a>
+
+   <a href="https://github.com/pedromiiguel/mks-frontend-challenge/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/pedromiiguel/mks-frontend-challenge?style=social">
+  </a>
+</p>
+
+<br/>
+
+<h1 align="center">
+     <img  src=".github/mks-frontend-challenge-beta.vercel.app.png"/>
+</h1>
+
+## 🚀 Tecnologias
+
+Tecnologias utilizazadas no projeto:
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJs](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [React Query](https://tanstack.com/query/v3/)
+- [Jest](https://tanstack.com/query/v3/)
+- [React Testing Library](https://testing-library.com/)
+- [Styled Media Query](https://github.com/morajabi/styled-media-query)
+
+### Pré-requisitos
+
+<p> É necessário possuir o Node.js instalado na máquina </p>
+<p>E também possuir um gerenciador de tarefas NPM ou Yarn.</p>
+
+## 🔧 Como executar o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone este repositório
+$ git clone https://github.com/pedromiiguel/mks-frontend-challenge
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd mks-frontend-challenge
+
+# Instale as dependências
+$ npm install ou yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm dev ou yarn dev
+
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :man_astronaut: Autor
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### Pedro Miguel
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Git Hub: <a href="https://github.com/pedromiiguel" target="_blank" >@pedromiiguel</a>
+- Linkedin: <a href="https://www.linkedin.com/in/pedro-miiguel" target="_blank" >@pedromiiguel</a>
