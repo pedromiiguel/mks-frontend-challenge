@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should render the card 1`] = `
+.c0 {
+  border-radius: 0.8rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.135216);
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.6rem;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.c4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #2C2C2C;
+  line-height: 1.9rem;
+}
+
+.c6 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #2C2C2C;
+  line-height: 1.4rem;
+}
+
+.c5 {
+  display: block;
+  background-color: #373737;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.c7 {
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #0F52BA;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding: 0.8rem;
+  gap: 1.6rem;
+  -webkit-transition: filter 150ms ease-in-out;
+  transition: filter 150ms ease-in-out;
+}
+
+.c7:hover {
+  -webkit-filter: brightness(0.9);
+  filter: brightness(0.9);
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <img
+        alt="Macbook Air"
+        data-nimg="1"
+        decoding="async"
+        height="150"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=384&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=384&q=75 2x"
+        style="color: transparent;"
+        width="150"
+      />
+    </div>
+    <header
+      class="c3"
+    >
+      <h3
+        class="c4"
+      >
+        Macbook Air
+      </h3>
+      <span
+        class="c5"
+      >
+        R$ 8.200
+      </span>
+    </header>
+    <p
+      class="c6"
+    >
+      Processador intel Core i5 de dois núcleos e 1,8 GHz (Turbo Boost de até 2,9 GHz) com cache L3 compartilhado de 3 MB.
+    </p>
+  </div>
+  <button
+    aria-label="Adicionar no carrinho"
+    class="c7"
+    type="button"
+  >
+    <svg
+      aria-label="Sacola de compras"
+      fill="none"
+      height="16"
+      role="img"
+      viewBox="0 0 14 16"
+      width="14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M3 1L1 3.7v9.45c0 .746.597 1.35 1.333 1.35h9.334c.736 0 1.333-.604 1.333-1.35V3.7L11 1H3z"
+        fill-rule="evenodd"
+        opacity="0.737"
+        stroke="#fff"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+      <path
+        d="M1 4.375h12M10 7c0 1.243-1.175 2.25-2.625 2.25S4.75 8.243 4.75 7"
+        opacity="0.737"
+        stroke="#fff"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+    Comprar
+  </button>
+</div>
+`;
