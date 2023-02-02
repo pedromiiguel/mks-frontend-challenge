@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuantityInput /> should render the quantity Input 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: calc(0.8rem / 2);
+}
+
+.c1 {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: calc(0.8rem / 2);
+  border: 0.03rem solid #bfbfbf;
+  border-radius: 0.5rem;
+}
+
+.c3 {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  padding: calc(0.8rem / 2);
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.c4 {
+  border: 0;
+  width: 2.6rem;
+  padding-inline: calc(0.8rem / 2);
+  border-left: 0.02rem solid #bfbfbf;
+  border-right: 0.02rem solid #bfbfbf;
+  color: #000000;
+}
+
+@media (max-width:450px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media (max-width:450px) {
+  .c3 {
+    font-size: 2.0rem;
+    padding: calc(1.2rem / 2);
+  }
+}
+
+@media (max-width:450px) {
+  .c4 {
+    width: 3.0rem;
+    padding-inline: 0.8rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+    for="quantity"
+  >
+    Qtd:
+  </label>
+  <div
+    class="c2"
+  >
+    <button
+      aria-label="Aumentar a quantidade do produto"
+      class="c3"
+    >
+      -
+    </button>
+    <input
+      class="c4"
+      id="quantity"
+      readonly=""
+      type="text"
+      value="1"
+    />
+    <button
+      aria-label="Diminuir a quantidade do produto"
+      class="c3"
+    >
+      +
+    </button>
+  </div>
+</div>
+`;
