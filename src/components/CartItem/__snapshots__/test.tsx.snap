@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartItem /> should render the cart items 1`] = `
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: calc(0.8rem / 2);
+}
+
+.c5 {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: calc(0.8rem / 2);
+  border: 0.03rem solid #bfbfbf;
+  border-radius: 0.5rem;
+}
+
+.c7 {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  padding: calc(0.8rem / 2);
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.c8 {
+  border: 0;
+  width: 2.6rem;
+  padding-inline: calc(0.8rem / 2);
+  border-left: 0.02rem solid #bfbfbf;
+  border-right: 0.02rem solid #bfbfbf;
+  color: #000000;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  box-shadow: -2px 2px 10px rgba(0,0,0,0.05);
+  border-radius: 0.8rem;
+  padding: 2.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 1.6rem;
+  position: relative;
+}
+
+.c1 {
+  position: relative;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 6rem;
+  height: 6rem;
+}
+
+.c2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #2C2C2C;
+  text-align: center;
+}
+
+.c9 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #000000;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.c10 {
+  cursor: pointer;
+  border: 0;
+  background-color: #000000;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.6rem;
+  right: -0.6rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c10 > svg {
+  width: 0.8rem;
+  height: 0.8rem;
+  fill: #FFFFFF;
+}
+
+@media (max-width:450px) {
+  .c5 {
+    display: none;
+  }
+}
+
+@media (max-width:450px) {
+  .c7 {
+    font-size: 2.0rem;
+    padding: calc(1.2rem / 2);
+  }
+}
+
+@media (max-width:450px) {
+  .c8 {
+    width: 3.0rem;
+    padding-inline: 0.8rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+}
+
+@media (max-width:450px) {
+  .c1 {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c9 {
+    background-color: #373737;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    color: #FFFFFF;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c3 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width:450px) {
+  .c10 {
+    top: 0.8rem;
+    right: 0.8rem;
+    background-color: transparent;
+  }
+
+  .c10 > svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: #000000;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="Macbook Air"
+      data-nimg="fill"
+      decoding="async"
+      loading="lazy"
+      sizes="100vw"
+      src="/_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=3840&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fmks-sistemas.nyc3.digitaloceanspaces.com%2Fproducts%2Fmacbookair.webp&w=3840&q=75 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+  </div>
+  <h4
+    class="c2"
+  >
+    Macbook Air
+  </h4>
+  <footer
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <label
+        class="c5"
+        for="quantity"
+      >
+        Qtd:
+      </label>
+      <div
+        class="c6"
+      >
+        <button
+          aria-label="Aumentar a quantidade do produto"
+          class="c7"
+        >
+          -
+        </button>
+        <input
+          class="c8"
+          id="quantity"
+          readonly=""
+          type="text"
+          value="1"
+        />
+        <button
+          aria-label="Diminuir a quantidade do produto"
+          class="c7"
+        >
+          +
+        </button>
+      </div>
+    </div>
+    <span
+      class="c9"
+    >
+      R$ 5.000
+    </span>
+  </footer>
+  <button
+    aria-label="Remover produto do carrinho"
+    class="c10"
+  >
+    <svg
+      aria-label="Fechar"
+      fill="none"
+      height="8"
+      role="img"
+      viewBox="0 0 8 8"
+      width="8"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.266 8L3.374 3.968L3.36 4.458L0.406 0.649999H1.526L3.948 3.8L3.528 3.786L5.95 0.649999H7.042L4.06 4.5L4.074 3.968L7.21 8H6.076L3.514 4.64L3.906 4.696L1.386 8H0.266Z"
+      />
+    </svg>
+  </button>
+</div>
+`;
