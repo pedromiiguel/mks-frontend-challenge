@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render the header 1`] = `
+.c0 {
+  width: 100%;
+  background-color: #0F52BA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2.4rem 3.2rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  font-weight: 600;
+  font-size: 4.0rem;
+  line-height: 1.9rem;
+}
+
+.c3 {
+  font-weight: 300;
+  font-size: 2.0rem;
+  line-height: 1.9rem;
+}
+
+.c4 {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.6rem;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: filter 150ms ease-in-out;
+  transition: filter 150ms ease-in-out;
+}
+
+.c4:hover {
+  -webkit-filter: brightness(0.9);
+  filter: brightness(0.9);
+}
+
+@media (max-width:450px) {
+  .c0 {
+    padding: 1.6rem 2.4rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c3 {
+    font-size: 1.6rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      class="c2"
+    >
+      MKS
+    </h1>
+    <h4
+      class="c3"
+    >
+      Sistemas
+    </h4>
+  </div>
+  <button
+    aria-label="Abrir o carrinho de compras"
+    class="c4"
+  >
+    <svg
+      aria-label="Carrinho de compras"
+      fill="none"
+      height="18"
+      role="img"
+      viewBox="0 0 20 18"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M.594 0A.599.599 0 000 .6c0 .33.267.6.594.6h2.315l.505 1.89v.06l1.9 7.17v.03l.623 2.4c.06.27.297.45.565.45h9.5c.326 0 .593-.27.593-.6 0-.33-.267-.6-.593-.6H6.977l-.327-1.26 10.598-.54c.268 0 .505-.21.564-.48L19 3.12a.652.652 0 00-.119-.48.618.618 0 00-.475-.24H4.453L3.948.45A.634.634 0 003.355 0H.594zm7.125 4.8c.326 0 .593.27.593.6v2.4c0 .33-.267.6-.593.6a.599.599 0 01-.594-.6V5.4c0-.33.267-.6.594-.6zm3.562 0c.327 0 .594.27.594.6v2.4c0 .33-.267.6-.594.6a.599.599 0 01-.594-.6V5.4c0-.33.268-.6.594-.6zm3.563 0c.326 0 .594.27.594.6v2.4c0 .33-.268.6-.594.6a.599.599 0 01-.594-.6V5.4c0-.33.267-.6.594-.6zm-7.125 9.6c-.98 0-1.782.81-1.782 1.8S6.74 18 7.72 18 9.5 17.19 9.5 16.2s-.802-1.8-1.781-1.8zm7.125 0c-.98 0-1.781.81-1.781 1.8s.801 1.8 1.78 1.8c.98 0 1.782-.81 1.782-1.8s-.802-1.8-1.781-1.8z"
+        fill="#000"
+      />
+    </svg>
+     
+    0
+  </button>
+</div>
+`;
