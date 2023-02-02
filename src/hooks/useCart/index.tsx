@@ -4,7 +4,12 @@ import { RootState } from '@/store';
 import { formatPrice } from '@/utils/formatPrice';
 import { cartLength, totalPrice } from '@/features/cart/cart-selectors';
 import { Product } from '@/templates/Home';
-import { addToCart, removeFromCart } from '@/features/cart/cart-slice';
+import {
+  addToCart,
+  decreaseItemQuantity,
+  increaseItemQuantity,
+  removeFromCart
+} from '@/features/cart/cart-slice';
 import { TypedUseSelectorHook, useSelector } from 'react-redux';
 
 const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
@@ -24,13 +29,23 @@ export const useCart = () => {
     dispatch(addToCart(product));
   };
 
+  const handleIncreaseQuantity = (productId: number) => {
+    dispatch(increaseItemQuantity(productId));
+  };
+
+  const handleDecreaseQuantity = (productId: number) => {
+    dispatch(decreaseItemQuantity(productId));
+  };
+
   return useMemo(
     () => ({
       total: formatPrice(total),
       length,
       items,
       handleRemoveFromCart,
-      handleAddToCart
+      handleAddToCart,
+      handleIncreaseQuantity,
+      handleDecreaseQuantity
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [total, length, items]
