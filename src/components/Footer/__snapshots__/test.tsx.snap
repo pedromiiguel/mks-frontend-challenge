@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render the footer 1`] = `
+.c0 {
+  background: #eeeeee;
+  padding-block: 1.6rem;
+  margin-top: 8rem;
+}
+
+.c1 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+
+<footer
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    MKS sistemas © Todos os direitos reservados
+  </p>
+</footer>
+`;
