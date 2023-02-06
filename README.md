@@ -58,6 +58,9 @@ $ git clone https://github.com/pedromiiguel/mks-frontend-challenge
 # Acesse a pasta do projeto no terminal/cmd
 $ cd mks-frontend-challenge
 
+# Adicione a url da API no .env
+$ API_URL=
+
 # Instale as dependências
 $ npm install ou yarn
 
