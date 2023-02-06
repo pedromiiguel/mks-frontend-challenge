@@ -53,12 +53,10 @@ const containerAnimation = {
       from {
         transform: translateX(0);
         opacity: 1;
-        width: 0;
       }
       to {
+        transform: translateX(48rem);
         opacity: 0;
-        transform: translateX(700px);
-        width: 0;
       }
     }
   `
@@ -78,7 +76,9 @@ export const Container = styled.div<ContainerProps>`
 
     display: flex;
     flex-direction: column;
+    transition: all 0.5s ease-in-out;
 
+    max-width: ${isOpen ? '48rem' : 0};
     width: 90%;
     max-height: 100vh;
     box-shadow: -5px 0px 6px rgba(0, 0, 0, 0.13);
