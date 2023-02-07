@@ -16,7 +16,6 @@ describe('<Drawer />', () => {
     expect(screen.getByText('Total:'));
 
     expect(container.firstChild).toMatchSnapshot();
-    // expect(screen.getByTestId('Mock CartItem')).toHaveBeenCalled(1);
   });
 
   it('calls onCloseDrawer when close button is clicked', () => {
